@@ -162,7 +162,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("PowerupLife"))
         {
-            life = Mathf.Min(life += PowerupLifeRegen, 100);
+            life = Mathf.Min(life += PowerupLifeRegen, maxLife);
             Instantiate(destroyItemEffect, collision.transform.parent.position, Quaternion.identity, collision.transform.parent.parent);
             Destroy(collision.transform.parent.gameObject);
         }
