@@ -32,6 +32,11 @@ public class Player : MonoBehaviour
     public int Life { get { return life; } }
     public bool HasArmor { get { return hasArmor; } }
 
+    [Header("Audios")]
+    [SerializeField] private AudioClip[] fireClips;
+    [SerializeField] private AudioClip[] powerupClips;
+    [SerializeField] private AudioClip[] hitClips;
+
     void Start()
     {
         fireTimer = Random.Range(fireRateMin, fireRateMax);
@@ -98,6 +103,8 @@ public class Player : MonoBehaviour
         projectile.GetComponent<Rigidbody2D>().linearVelocity = spreadDirection * 5f; // Adjust speed as needed
 
         currentProjectileIndex = (currentProjectileIndex + 1) % maxProjectiles;
+
+        MusicManager.Instance.PlayOneShot(fireClips[Random.Range(0, fireClips.Length)], Random.Range(0.9f, 1.15f));
     }
 
     private GameObject FindClosestEnemy()
@@ -153,24 +160,32 @@ public class Player : MonoBehaviour
 
             Instantiate(destroyEnemyEffect, collision.transform.parent.position, Quaternion.identity, collision.transform.parent.parent);
             Destroy(collision.transform.parent.gameObject);
+
+            MusicManager.Instance.PlayOneShot(hitClips[Random.Range(0, hitClips.Length)]);
         }
         else if (collision.gameObject.CompareTag("PowerupShield"))
         {
             hasArmor = true;
             Instantiate(destroyItemEffect, collision.transform.parent.position, Quaternion.identity, collision.transform.parent.parent);
             Destroy(collision.transform.parent.gameObject);
+
+            MusicManager.Instance.PlayOneShot(powerupClips[Random.Range(0, powerupClips.Length)]);
         }
         else if (collision.gameObject.CompareTag("PowerupLife"))
         {
             life = Mathf.Min(life += PowerupLifeRegen, maxLife);
             Instantiate(destroyItemEffect, collision.transform.parent.position, Quaternion.identity, collision.transform.parent.parent);
             Destroy(collision.transform.parent.gameObject);
+
+            MusicManager.Instance.PlayOneShot(powerupClips[Random.Range(0, powerupClips.Length)]);
         }
         else if (collision.gameObject.CompareTag("PowerupProjectile"))
         {
             currentProjectiles = Mathf.Min(currentProjectiles += PowerupProjectiles, maxProjectiles);
             Instantiate(destroyItemEffect, collision.transform.parent.position, Quaternion.identity, collision.transform.parent.parent);
             Destroy(collision.transform.parent.gameObject);
+
+            MusicManager.Instance.PlayOneShot(powerupClips[Random.Range(0, powerupClips.Length)]);
         }
     }
 

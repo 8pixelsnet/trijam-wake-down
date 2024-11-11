@@ -2,6 +2,9 @@ using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +12,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] TMP_Text scoreText;
     bool gameover;
     float score;
+
+    [SerializeField] private AudioClip[] gameoverClips;
 
     void Start() {
         gameover = false;
@@ -34,6 +39,8 @@ public class GameManager : MonoBehaviour
     public void GameOver() {
         gameover = true;
         gameoverScreen.SetActive(true);
+
+        MusicManager.Instance.PlayOneShot(gameoverClips[UnityEngine.Random.Range(0, gameoverClips.Length)]);
     }
 
     public void Restart() {
