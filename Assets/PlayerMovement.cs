@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     [SerializeField] GameManager gameManager;
 
+    bool isMobile; 
+
     // Components
     Rigidbody2D rb;
     CapsuleCollider2D col;
@@ -19,18 +21,28 @@ public class PlayerMovement : MonoBehaviour
         // Get Rigidbody2D and CapsuleCollider2D components
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CapsuleCollider2D>();
+        isMobile = Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer;
     }
 
     void Update()
     {
-        // soh move se nao tiver no gameover
+        // Just can control if the game is not over
         if (!gameManager.IsGameOver()) {
             // Handle horizontal movement
-            float moveDirection = Input.GetAxis("Horizontal");
+            float moveDirection;
+            if (isMobile && SystemInfo.supportsAccelerometer) 
+            {
+                moveDirection = Input.acceleration.x * 2.4F;
+            } 
+            else 
+            {
+                moveDirection = Input.GetAxis("Horizontal");
+            }
+            
             rb.linearVelocity = new Vector2(moveDirection * moveSpeed, rb.linearVelocity.y);
 
             // Handle jump
-            if (Input.GetButtonDown("Jump") && IsGrounded())
+            if ((Input.GetMouseButtonDown(0) || Input.GetButtonDown("Jump")) && IsGrounded())
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             }
