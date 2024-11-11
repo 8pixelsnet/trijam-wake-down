@@ -12,6 +12,10 @@ public class CameraScaler : MonoBehaviour
         FitCamera();
     }
 
+    void FixedUpdate() {
+        FitCamera();
+    }
+
     void FitCamera()
     {
         Bounds objectBounds = targetObject.GetComponent<Renderer>().bounds;
