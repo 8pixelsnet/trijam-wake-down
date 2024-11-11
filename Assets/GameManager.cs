@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
         score = 0;
     }
 
+    public void AddScore(int addValue)
+    {
+        score += addValue;
+    }
+
     void Update() {
         if (!gameover) {
             score += Time.deltaTime;

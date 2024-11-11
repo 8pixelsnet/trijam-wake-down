@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - PowerupShield
+  - PowerupLife
+  - PowerupProjectile
   layers:
   - Default
   - TransparentFX
@@ -11,14 +15,14 @@ TagManager:
   - 
   - Water
   - UI
-  - Enemy
+  - Entity
   - Ground
   - InvisbleWall
   - Player
   - KillerWall
-  - 
-  - 
-  - 
+  - Powerup
+  - Enemy
+  - Projectile
   - 
   - 
   - 

@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 1cb332d1e85226741ad8e1c190b7c09f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6543527024935154326
+    second: DestroyEffect2_0
+  - first:
+      213: -8378230044256408867
+    second: DestroyEffect2_1
+  - first:
+      213: -9140063467218759931
+    second: DestroyEffect2_2
+  - first:
+      213: 3260383495159886865
+    second: DestroyEffect2_3
+  - first:
+      213: -1543006557481259533
+    second: DestroyEffect2_4
+  - first:
+      213: 8325864404039132864
+    second: DestroyEffect2_5
+  - first:
+      213: 2546622922433595397
+    second: DestroyEffect2_6
+  - first:
+      213: 7058568464729359199
+    second: DestroyEffect2_7
+  - first:
+      213: 8207996957116201445
+    second: DestroyEffect2_8
+  - first:
+      213: -4267158868174283329
+    second: DestroyEffect2_9
+  - first:
+      213: 189370655522200047
+    second: DestroyEffect2_10
+  - first:
+      213: 357462370936174362
+    second: DestroyEffect2_11
+  - first:
+      213: 4420513133591653037
+    second: DestroyEffect2_12
+  - first:
+      213: -5491641037381797907
+    second: DestroyEffect2_13
+  - first:
+      213: -813197285573888145
+    second: DestroyEffect2_14
+  - first:
+      213: -6880084932529057355
+    second: DestroyEffect2_15
+  - first:
+      213: -3950586012371166436
+    second: DestroyEffect2_16
+  - first:
+      213: 2155678282074311415
+    second: DestroyEffect2_17
+  - first:
+      213: -6917378777637179415
+    second: DestroyEffect2_18
+  - first:
+      213: -4780712228453100983
+    second: DestroyEffect2_19
+  - first:
+      213: 6853540088942347516
+    second: DestroyEffect2_20
+  - first:
+      213: -2781429839670726140
+    second: DestroyEffect2_21
+  - first:
+      213: 1294966906306563469
+    second: DestroyEffect2_22
+  - first:
+      213: 706639267865468711
+    second: DestroyEffect2_23
+  - first:
+      213: -3916196553081468880
+    second: DestroyEffect2_24
+  - first:
+      213: -7828008747202218680
+    second: DestroyEffect2_25
+  - first:
+      213: 408426185775750923
+    second: DestroyEffect2_26
+  - first:
+      213: -1169752368984476706
+    second: DestroyEffect2_27
+  - first:
+      213: -2781812671582189642
+    second: DestroyEffect2_28
+  - first:
+      213: 97290704670210574
+    second: DestroyEffect2_29
+  - first:
+      213: 6530537140576100872
+    second: DestroyEffect2_30
+  - first:
+      213: 5775906473968550116
+    second: DestroyEffect2_31
+  - first:
+      213: 3824204679448834169
+    second: DestroyEffect2_32
+  - first:
+      213: 2299156437264789994
+    second: DestroyEffect2_33
+  - first:
+      213: 8804562127458917444
+    second: DestroyEffect2_34
+  - first:
+      213: -3397174403985681000
+    second: DestroyEffect2_35
+  - first:
+      213: -5507268133928284595
+    second: DestroyEffect2_36
+  - first:
+      213: -6576572361051327658
+    second: DestroyEffect2_37
+  - first:
+      213: 8445397817772680825
+    second: DestroyEffect2_38
+  - first:
+      213: -160444305154558413
+    second: DestroyEffect2_39
+  - first:
+      213: 6416623267697452957
+    second: DestroyEffect2_40
+  - first:
+      213: -2983885597791604170
+    second: DestroyEffect2_41
+  - first:
+      213: -3432057000423776335
+    second: DestroyEffect2_42
+  - first:
+      213: -3831261077879217803
+    second: DestroyEffect2_43
+  - first:
+      213: 3545026548508163485
+    second: DestroyEffect2_44
+  - first:
+      213: 460474364438282054
+    second: DestroyEffect2_45
+  - first:
+      213: -5282366273113849573
+    second: DestroyEffect2_46
+  - first:
+      213: -4861245268504908666
+    second: DestroyEffect2_47
+  - first:
+      213: -7482380814533155405
+    second: DestroyEffect2_48
+  - first:
+      213: -359055751313875369
+    second: DestroyEffect2_49
+  - first:
+      213: -5452386676920199955
+    second: DestroyEffect2_50
+  - first:
+      213: 434999730282268935
+    second: DestroyEffect2_51
+  - first:
+      213: -5915615990698200804
+    second: DestroyEffect2_52
+  - first:
+      213: -2148264236053245852
+    second: DestroyEffect2_53
+  - first:
+      213: -2515005694582502822
+    second: DestroyEffect2_54
+  - first:
+      213: -8943243014435986214
+    second: DestroyEffect2_55
+  - first:
+      213: -8643295470046132403
+    second: DestroyEffect2_56
+  - first:
+      213: 1188378106968201103
+    second: DestroyEffect2_57
+  - first:
+      213: 303211029877440061
+    second: DestroyEffect2_58
+  - first:
+      213: 5390712930190758449
+    second: DestroyEffect2_59
+  - first:
+      213: -5997573599417796131
+    second: DestroyEffect2_60
+  - first:
+      213: -2166290626722853985
+    second: DestroyEffect2_61
+  - first:
+      213: -9004097000188175519
+    second: DestroyEffect2_62
+  - first:
+      213: 7073575780524301548
+    second: DestroyEffect2_63
+  - first:
+      213: -6882817929727860896
+    second: DestroyEffect2_64
+  - first:
+      213: 8647558865340034101
+    second: DestroyEffect2_65
+  - first:
+      213: 5466957109667812186
+    second: DestroyEffect2_66
+  - first:
+      213: 8935802476262270339
+    second: DestroyEffect2_67
+  - first:
+      213: 7471257784075538494
+    second: DestroyEffect2_68
+  - first:
+      213: 3359844463588842721
+    second: DestroyEffect2_69
+  - first:
+      213: 6066604958965627745
+    second: DestroyEffect2_70
+  - first:
+      213: -2694039787748875102
+    second: DestroyEffect2_71
+  - first:
+      213: -1914583013452345645
+    second: DestroyEffect2_72
+  - first:
+      213: 6277502202981419198
+    second: DestroyEffect2_73
+  - first:
+      213: -702618364352672648
+    second: DestroyEffect2_74
+  - first:
+      213: 1372690401793681094
+    second: DestroyEffect2_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DestroyEffect2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af972ad7a4e2d3468ec041a71871a49
+      internalID: -2025242186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55f2e54aa24b2a4b934394587701b73
+      internalID: -1578960038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b4ff2c457e4e5459c241ef7e545dc1
+      internalID: -903718394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce911c4b64c4c5418c0ac820c080d3c
+      internalID: -1184796527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7775cff0b05536c4eb0e1c1a644264f8
+      internalID: 782733408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a353e141447e94284090336711e271
+      internalID: -660115421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e88374f2e4a3b4e96f8dd72e899315
+      internalID: 1008479896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f79aa6448828f4d913d6846d1e4b26
+      internalID: 2057227190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92dd20f1da80324f9fe0cb1ef4a30d1
+      internalID: -2079471787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3698a8c2ce913ea4f8f81d6acccdc2d7
+      internalID: -1020019924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect2_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadd4482f45cda94b8c814fbbae484f0
+      internalID: 1330464352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bbc65bf8652c13246ba091c42e9658a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DestroyEffect2_0: -2025242186
+      DestroyEffect2_1: -1578960038
+      DestroyEffect2_10: 1330464352
+      DestroyEffect2_2: -903718394
+      DestroyEffect2_3: -1184796527
+      DestroyEffect2_4: 782733408
+      DestroyEffect2_5: -660115421
+      DestroyEffect2_6: 1008479896
+      DestroyEffect2_7: 2057227190
+      DestroyEffect2_8: -2079471787
+      DestroyEffect2_9: -1020019924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
